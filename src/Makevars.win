@@ -1,0 +1,2 @@
+PKG_CPPFLAGS =  -I"$(PKG_DIR)/RcppArmadillo/include" -I"$(PKG_DIR)/Rcpp/include" -I"$(PKG_DIR)/RcppEigen/include" -DNDEBUG   -O3  -mavx
+PKG_LIBS = -lRblas -lRlapack -lR
